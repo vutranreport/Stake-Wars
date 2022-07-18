@@ -1,0 +1,15 @@
+#Cập nhật Ubuntu
+sudo apt update && sudo apt upgrade -y
+
+#Cài đặt developer tools, Node.js, and npm
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -  
+sudo apt install build-essential nodejs
+PATH="$PATH"
+
+#Kiểm tra các phiên bản(version) của Node.js và npm
+
+node -v
+#V18.x.x => vầy là ổn
+
+npm -v
+#8.x.x => vầy là ok.
