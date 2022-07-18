@@ -1,0 +1,5 @@
+#Cài đặt NEAR - CLI
+sudo npm install -g near-cli
+
+#Kiểm tra phiên bản 
+near --version
